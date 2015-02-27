@@ -28,17 +28,7 @@ int leerMatriz_int(Matriz& m)
     }
     return numN;
 }
-void escribirMatriz_clas(const Clas& m)
-{
-  for (int i=0; i<m.size();++i)
-    {
-        cout << "indent: "<< m[i].ident + 1 << " ";
-        cout << "puntos: "<< m[i].puntos << " ";
-        cout << "favor: "<< m[i].golesF << " ";
-        cout << "contra: "<< m[i].golesC << " ";
-        cout << endl;
-    }
-}
+
 void escribirMatriz_clas2(const Clas& m)
 {
   for (int i=0; i<m.size();++i)
